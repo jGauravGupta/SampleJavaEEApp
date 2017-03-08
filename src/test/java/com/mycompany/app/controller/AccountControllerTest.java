@@ -30,12 +30,14 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 import static org.hamcrest.CoreMatchers.hasItems;
 import static org.hamcrest.CoreMatchers.is;
+import org.junit.Ignore;
 import static org.valid4j.matchers.http.HttpResponseMatchers.hasStatus;
 
 /**
  * Test class for the AccountController REST controller.
  *
  */
+@Ignore
 public class AccountControllerTest extends ApplicationTest {
 
     @Inject

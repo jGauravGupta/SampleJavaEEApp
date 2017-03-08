@@ -186,11 +186,6 @@
     <profiles>
         <profile>
             <id>payara-embedded</id>
-            <activation>
-                <property>
-                    <name>!skipTests</name>
-                </property>
-            </activation>
             <dependencies>
                 <dependency>
                     <groupId>fish.payara.extras</groupId>

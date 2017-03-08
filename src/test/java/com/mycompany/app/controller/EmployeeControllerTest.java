@@ -14,6 +14,7 @@ import org.jboss.arquillian.container.test.api.Deployment;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
+import org.jboss.arquillian.container.test.api.RunAsClient;
 import org.jboss.arquillian.junit.InSequence;
 import org.jboss.shrinkwrap.api.spec.WebArchive;
 import static org.valid4j.matchers.http.HttpResponseMatchers.hasContentType;
@@ -23,6 +24,7 @@ import static org.valid4j.matchers.http.HttpResponseMatchers.hasStatus;
  * Test class for the EmployeeController REST controller.
  *
  */
+
 public class EmployeeControllerTest extends ApplicationTest {
 
     private static final String DEFAULT_FIRST_NAME = "AAAAA";
