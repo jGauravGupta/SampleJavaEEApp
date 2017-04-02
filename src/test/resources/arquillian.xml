@@ -6,7 +6,7 @@
         <configuration>
             <!--payara:4.1.1.162:embedded-->
             <!--payara:4.1.1.162:managed-->
-            <property name="chameleonTarget">payara:4.1.1.162:managed</property>
+            <property name="chameleonTarget">payara:4.1.1.162:embedded</property>
             <property name="bindHttpPort">7171</property>
         </configuration>
     </container>
